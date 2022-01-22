@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_market.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_news.xml" value="0.25" />
         <entry key="app/src/main/res/layout/crypto_list_item.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/news_list_item.xml" value="0.25" />
       </map>
     </option>
   </component>
