@@ -1,13 +1,13 @@
-package dev.ahmadkhan.cryptofolio;
+package dev.ahmadkhan.cryptofolio.models;
 
 import java.util.Arrays;
 import java.util.List;
 
 public class CryptoDetails {
-    final String name;
-    final String symbol;
-    final double price;
-    final String imagePath;
+    public final String name;
+    public final String symbol;
+    public final double price;
+    public final String imagePath;
 
     public CryptoDetails(String name, String symbol, double price, String imagePath) {
         this.name = name;
