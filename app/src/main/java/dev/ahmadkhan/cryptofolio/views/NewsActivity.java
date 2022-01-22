@@ -1,10 +1,11 @@
-package dev.ahmadkhan.cryptofolio;
+package dev.ahmadkhan.cryptofolio.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
+import dev.ahmadkhan.cryptofolio.R;
 import dev.ahmadkhan.cryptofolio.models.NewsDetails;
 
 public class NewsActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package dev.ahmadkhan.cryptofolio;
+package dev.ahmadkhan.cryptofolio.views;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,6 +14,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
+import dev.ahmadkhan.cryptofolio.R;
 import dev.ahmadkhan.cryptofolio.models.CryptoDetails;
 
 public class CryptoRecyclerAdapter extends RecyclerView.Adapter<CryptoRecyclerAdapter.ViewHolder> {

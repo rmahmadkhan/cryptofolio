@@ -1,8 +1,10 @@
-package dev.ahmadkhan.cryptofolio;
+package dev.ahmadkhan.cryptofolio.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import dev.ahmadkhan.cryptofolio.R;
 
 public class MainActivity extends AppCompatActivity {
 

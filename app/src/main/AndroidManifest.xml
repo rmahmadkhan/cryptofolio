@@ -13,17 +13,17 @@
         android:theme="@style/Theme.Cryptofolio">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".views.MainActivity"
             android:exported="false">
         </activity>
 
         <activity
-            android:name=".MarketActivity"
+            android:name=".views.MarketActivity"
             android:exported="true">
         </activity>
 
         <activity
-            android:name=".NewsActivity"
+            android:name=".views.NewsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
