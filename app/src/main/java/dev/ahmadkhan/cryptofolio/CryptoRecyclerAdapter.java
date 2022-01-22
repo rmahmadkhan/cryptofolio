@@ -14,6 +14,8 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
+import dev.ahmadkhan.cryptofolio.models.CryptoDetails;
+
 public class CryptoRecyclerAdapter extends RecyclerView.Adapter<CryptoRecyclerAdapter.ViewHolder> {
 
     List<CryptoDetails> cryptoList;

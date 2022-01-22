@@ -5,6 +5,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
+import dev.ahmadkhan.cryptofolio.models.CryptoDetails;
+
 public class MarketActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
