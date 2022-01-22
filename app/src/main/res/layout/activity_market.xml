@@ -6,16 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/marketActivityTitle"
         android:text="@string/cryptocurrencies"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        style="@style/TextAppearance.CryptoPriceListing.Title"
+        style="@style/TextAppearance.Activity.Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <LinearLayout
         android:id="@+id/header"
-        android:layout_below="@id/title"
+        android:layout_below="@id/marketActivityTitle"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="20dp"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            style="@style/TextAppearance.CryptoPriceListing.Header"
+            style="@style/TextAppearance.Text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -33,7 +33,7 @@
             android:textColor="#757575" />
 
         <TextView
-            style="@style/TextAppearance.CryptoPriceListing.Header"
+            style="@style/TextAppearance.Text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -42,7 +42,7 @@
             android:textColor="#757575" />
 
         <TextView
-            style="@style/TextAppearance.CryptoPriceListing.Header"
+            style="@style/TextAppearance.Text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
