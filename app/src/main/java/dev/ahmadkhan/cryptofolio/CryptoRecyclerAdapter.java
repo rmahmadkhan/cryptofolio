@@ -10,6 +10,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.List;
 
 public class CryptoRecyclerAdapter extends RecyclerView.Adapter<CryptoRecyclerAdapter.ViewHolder> {
@@ -33,11 +35,14 @@ public class CryptoRecyclerAdapter extends RecyclerView.Adapter<CryptoRecyclerAd
         holder.name.setText(cryptoList.get(position).name);
         holder.symbol.setText(cryptoList.get(position).symbol);
         holder.price.setText(String.format("$ %s", cryptoList.get(position).price));
+
+        // Using Picasso, a third-party library, to load and cache the image
+        Picasso.get().load(cryptoList.get(position).imagePath).into(holder.image);
     }
 
     @Override
     public int getItemCount() {
-        return 10;
+        return cryptoList.size();
     }
 
     static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
