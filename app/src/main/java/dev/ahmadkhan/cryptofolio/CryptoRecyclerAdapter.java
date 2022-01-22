@@ -10,7 +10,16 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.List;
+
 public class CryptoRecyclerAdapter extends RecyclerView.Adapter<CryptoRecyclerAdapter.ViewHolder> {
+
+    List<CryptoDetails> cryptoList;
+
+    public CryptoRecyclerAdapter(List<CryptoDetails> list){
+        this.cryptoList = list;
+    }
+
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -21,9 +30,9 @@ public class CryptoRecyclerAdapter extends RecyclerView.Adapter<CryptoRecyclerAd
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.name.setText("Bitcoin");
-        holder.symbol.setText("BTC");
-        holder.price.setText("$36000");
+        holder.name.setText(cryptoList.get(position).name);
+        holder.symbol.setText(cryptoList.get(position).symbol);
+        holder.price.setText(String.format("$ %s", cryptoList.get(position).price));
     }
 
     @Override

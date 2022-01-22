@@ -17,7 +17,7 @@ public class MarketActivity extends AppCompatActivity {
 
 
         recyclerView = findViewById(R.id.cryptoRecyclerView);
-        cryptoRecyclerAdapter = new CryptoRecyclerAdapter();
+        cryptoRecyclerAdapter = new CryptoRecyclerAdapter(CryptoDetails.cryptoList);
         recyclerView.setAdapter(cryptoRecyclerAdapter);
     }
 }
