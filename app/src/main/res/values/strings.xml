@@ -5,4 +5,6 @@
     <string name="symbol">Symbol</string>
     <string name="price_us">Price (US$)</string>
     <string name="load_data_error">There are something wrong when fetching data, please try again later!</string>
+
+    <string name="crypto_news">Crypto News</string>
 </resources>
