@@ -8,7 +8,7 @@ import android.os.Bundle;
 public class MarketActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
-    RecyclerAdapter recyclerAdapter;
+    CryptoRecyclerAdapter cryptoRecyclerAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,7 @@ public class MarketActivity extends AppCompatActivity {
 
 
         recyclerView = findViewById(R.id.cryptoRecyclerView);
-        recyclerAdapter = new RecyclerAdapter();
-        recyclerView.setAdapter(recyclerAdapter);
+        cryptoRecyclerAdapter = new CryptoRecyclerAdapter();
+        recyclerView.setAdapter(cryptoRecyclerAdapter);
     }
 }
