@@ -34,7 +34,7 @@ public class CryptoRecyclerAdapter extends RecyclerView.Adapter<CryptoRecyclerAd
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.name.setText(cryptoList.get(position).name);
         holder.symbol.setText(cryptoList.get(position).symbol);
-        holder.price.setText(String.format("$ %s", cryptoList.get(position).price));
+        holder.price.setText(String.format("%s $", cryptoList.get(position).price));
 
         // Using Picasso, a third-party library, to load and cache the image
         Picasso.get().load(cryptoList.get(position).imagePath).into(holder.image);
