@@ -12,16 +12,16 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.squareup.picasso.Picasso;
 
-import java.util.List;
+import java.util.ArrayList;
 
 import dev.ahmadkhan.cryptofolio.R;
 import dev.ahmadkhan.cryptofolio.models.NewsDetails;
 
 public class NewsRecyclerAdapter extends RecyclerView.Adapter<NewsRecyclerAdapter.ViewHolder> {
 
-    List<NewsDetails> newsList;
+    ArrayList<NewsDetails> newsList;
 
-    public NewsRecyclerAdapter(List<NewsDetails> list){
+    public NewsRecyclerAdapter(ArrayList<NewsDetails> list){
         this.newsList = list;
     }
 
