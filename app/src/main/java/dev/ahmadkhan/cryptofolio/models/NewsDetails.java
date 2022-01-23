@@ -1,12 +1,12 @@
-package dev.ahmadkhan.cryptofolio;
+package dev.ahmadkhan.cryptofolio.models;
 
 import java.util.Arrays;
 import java.util.List;
 
 public class NewsDetails {
-    final String title;
-    final String text;
-    final String imagePath;
+    public final String title;
+    public final String text;
+    public final String imagePath;
 
     public NewsDetails(String title, String text, String imagePath) {
         this.title = title;
