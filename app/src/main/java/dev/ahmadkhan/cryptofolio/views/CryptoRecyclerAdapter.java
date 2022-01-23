@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.squareup.picasso.Picasso;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import dev.ahmadkhan.cryptofolio.R;
@@ -19,9 +20,9 @@ import dev.ahmadkhan.cryptofolio.models.CryptoDetails;
 
 public class CryptoRecyclerAdapter extends RecyclerView.Adapter<CryptoRecyclerAdapter.ViewHolder> {
 
-    List<CryptoDetails> cryptoList;
+    private ArrayList<CryptoDetails> cryptoList;
 
-    public CryptoRecyclerAdapter(List<CryptoDetails> list){
+    public CryptoRecyclerAdapter(ArrayList<CryptoDetails> list){
         this.cryptoList = list;
     }
 
